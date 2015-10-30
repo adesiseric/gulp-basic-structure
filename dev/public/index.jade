@@ -1,0 +1,37 @@
+doctype html
+html(lang="es")
+
+    head
+        meta(
+            http-equiv="Content-Type"
+            content="text/html; charset=ISO-8859-1"
+        )
+        meta(
+            content="width=device-width, initial-scale=1.0"
+            name="viewport"
+        )
+        title Test
+        meta(
+            content=""
+            name="description"
+        )
+        link(
+            href="/assets/favicon.ico"
+            rel="shortcut icon"
+        )
+        link(
+            href="/css/main.css"
+            rel="stylesheet"
+        )
+
+    body.app-style(
+        ng-app="test"
+        ng-controller="ParentCtrl as parentCtrl"
+    )
+        .container
+            p Test
+
+        script(src="/vendor/jquery-2.1.4.min.js")
+        script(src="/vendor/angular/angular.min.js")
+        script(src="/js/index.js")
+        script(src="/js/controllers/parentCtrl.js")

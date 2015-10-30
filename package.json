@@ -1,0 +1,38 @@
+{
+  "name": "gulp-structure",
+  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "connect-livereload": "^0.5.3",
+    "del": "^2.0.2",
+    "express": "^4.13.3",
+    "extend": "^3.0.0",
+    "fs": "0.0.2",
+    "gulp": "^3.9.0",
+    "gulp-angular-templatecache": "^1.7.0",
+    "gulp-babel": "^5.1.0",
+    "gulp-changed": "^1.2.1",
+    "gulp-data": "^1.2.0",
+    "gulp-inject": "^3.0.0",
+    "gulp-jade": "^1.0.1",
+    "gulp-ng-annotate": "^1.1.0",
+    "gulp-stylus": "^2.1.0",
+    "gulp-uglify": "^1.4.2",
+    "gulp-useref": "^2.0.0",
+    "gulp-wrap": "^0.11.0",
+    "karma": "^0.13.14",
+    "open": "0.0.5",
+    "path": "^0.12.7",
+    "request": "^2.65.0",
+    "run-sequence": "^1.1.4",
+    "tiny-lr": "^0.2.1"
+  }
+}
