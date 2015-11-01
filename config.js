@@ -55,11 +55,11 @@ const $ = {
     },
 
     dist: {
-        allJs: './_public-dist/js/allJs.js',
+        allJs: './_public-dist/js/all.js',
         dir: './_public-dist',
         index: './_public-dist/index.html',
         js: './_public-dist/js',
-        styles: '._public-dist/styles',
+        styles: './_public-dist/css',
         vendor: './_public-dist/vendor'
     }
 }
